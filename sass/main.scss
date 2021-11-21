@@ -1,23 +1,16 @@
 // UTILS
 @import './utils/variables';
-@import './utils/visually-hidden';
+
 
 // COMPONENTS
 @import './components/container';
-@import './components/section';
 @import './components/button';
-@import './components/modal';
-@import './components/section__title';
+
 
 // BASE
 @import './base/common';
 
+
 // LAYOUT
 @import './layout/header';
 @import './layout/hero';
-@import './layout/features';
-@import './layout/works';
-@import './layout/team';
-@import './layout/clients';
-@import './layout/footer';
-@import './layout/portfolio';
