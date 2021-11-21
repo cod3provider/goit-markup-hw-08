@@ -1,10 +1,13 @@
 // UTILS
 @import './utils/variables';
+@import './utils/visually-hidden';
 
 
 // COMPONENTS
 @import './components/container';
 @import './components/button';
+@import './components/section__title';
+@import './components/section';
 
 
 // BASE
@@ -14,3 +17,5 @@
 // LAYOUT
 @import './layout/header';
 @import './layout/hero';
+@import './layout/features';
+@import './layout/works';
