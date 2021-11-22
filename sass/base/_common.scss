@@ -18,6 +18,10 @@ a {
 body {
     font-family: var(--main-font);
     color: var(--text-color);
+
+    @media screen and (min-width: 320px) {
+        overflow-x: hidden;
+    }
 }
 
 img {

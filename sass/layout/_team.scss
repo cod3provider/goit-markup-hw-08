@@ -117,7 +117,10 @@
     @media screen and (min-width: 1200px) {
         border-radius: 50%;
         &:hover, &:focus {
-            background-color: #2196F3;
+            background-color: var(--accent-color);
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
         }
     }
 }
@@ -127,8 +130,10 @@
     height: 20px;
     fill: #AFB1B8;
 
-    .social__link &:hover,
-    .social__link &:focus {
+    @media screen and (min-width: 1200px) {
+    .social__link:hover &,
+    .social__link:focus & {
         fill: #ffffff;
+    }
     }
 }

@@ -31,7 +31,7 @@
 
     & span {
         
-        color: #2196F3;
+        color: var(--accent-color);
     }
 }
 
@@ -45,7 +45,7 @@
     background-color: transparent;
 
     &:hover {
-        fill: #2196F3;
+        fill: var(--accent-color);
     }
 
     @media screen and (min-width: 768px) {
@@ -98,11 +98,11 @@
     color: #212121;
 
     &:hover {
-        color: #2196F3;
+        color: var(--accent-color);
     }
 
     &--current {
-        color: #2196F3;
+        color: var(--accent-color);
     }
 }
 
@@ -116,7 +116,7 @@
 }
 
 .mobile-menu__icon-close:hover {
-    fill:#2196F3;
+    fill:var(--accent-color);
 }
 
 .mobile-menu__tel {
@@ -125,7 +125,7 @@
     font-size: 34px;
     line-height: 1.18;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--accent-color);
     margin-bottom: 32px;
 }
 
@@ -156,7 +156,7 @@
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 
@@ -181,7 +181,6 @@
 }
 
 .nav__link {
-    position: relative;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -192,11 +191,12 @@
     padding-bottom: 32px;
 
     &:hover, &:focus {
-        color: #2196F3;
+        color: var(--accent-color);
     }
 
     &--current {
-        color: #2196F3;
+        color: var(--accent-color);
+        position: relative;
 
         &::after {
             content: '';
@@ -207,7 +207,7 @@
             position: absolute;
             left: 0;
             bottom: 0;
-            background-color: #2196F3;
+            background-color: var(--accent-color);
             border-radius: 2px;
         }
     }
@@ -255,7 +255,7 @@
     align-items: center;
 
     &:hover, &:focus {
-        color: #2196F3;
+        color: var(--accent-color);
     }
 }
 

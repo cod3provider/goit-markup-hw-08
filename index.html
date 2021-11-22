@@ -15,7 +15,6 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
 
     <link rel="stylesheet" href="./css/main.min.css">
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <title>Web Studio</title>
 </head>
 
@@ -49,15 +48,15 @@
             <div class="mobile-menu" data-menu>
                 <ul class="mobile-nav">
                     <li class="mobile-nav__item">
-                        <a class="mobile-nav__link mobile-nav__link--current " href="">Студия</a>
+                        <a class="mobile-nav__link mobile-nav__link--current " href="./index.html">Студия</a>
                     </li>
 
                     <li class="mobile-nav__item">
-                        <a class="mobile-nav__link" href="">Портфолио</a>
+                        <a class="mobile-nav__link" href="./portfolio.html">Портфолио</a>
                     </li>
 
                     <li class="mobile-nav__item">
-                        <a class="mobile-nav__link" href="">Контакты</a>
+                        <a class="mobile-nav__link" href="#">Контакты</a>
                     </li>
                 </ul>
 
@@ -120,7 +119,7 @@
         <section class="hero hero--centered">
             <div class="container">
                 <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="hero__button" data-menu-open>Заказать услугу</button>
+                <button type="button" class="hero__button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
 
@@ -195,11 +194,11 @@
                         <div class="works__thumb">
                             <picture>
                                 <source media="(min-width: 1200px)"
-                                    srcset="./images/occupation/occ-1-desktop.jpg 1x, ./images/occupation/occ-1-desktop@2x.jpg 2x">
-
-                                <source media="(min-width: 1200px)"
                                     srcset="./images/occupation/occ-1-desktop.webp 1x, ./images/occupation/occ-1-desktop@2x.webp 2x"
                                     type="image/webp">
+
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/occupation/occ-1-desktop.jpg 1x, ./images/occupation/occ-1-desktop@2x.jpg 2x">
 
                                 <img class="works__image" src="#" alt="Разработка десктопных приложений">
                             </picture>
@@ -211,11 +210,11 @@
                         <div class="works__thumb">
                             <picture>
                                 <source media="(min-width: 1200px)"
-                                    srcset="./images/occupation/occ-2-desktop.jpg 1x, ./images/occupation/occ-2-desktop@2x.jpg 2x">
-
-                                <source media="(min-width: 1200px)"
                                     srcset="./images/occupation/occ-2-desktop.webp 1x, ./images/occupation/occ-2-desktop@2x.webp 2x"
                                     type="image/webp">
+
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/occupation/occ-2-desktop.jpg 1x, ./images/occupation/occ-2-desktop@2x.jpg 2x">
 
                                 <img class="works__image" src="#" alt="Разработка мобильных приложений">
                             </picture>
@@ -227,11 +226,11 @@
                         <div class="works__thumb">
                             <picture>
                                 <source media="(min-width: 1200px)"
-                                    srcset="./images/occupation/occ-3-desktop.jpg 1x, ./images/occupation/occ-3-desktop@2x.jpg 2x">
-
-                                <source media="(min-width: 1200px)"
                                     srcset="./images/occupation/occ-3-desktop.webp 1x, ./images/occupation/occ-3-desktop@2x.webp 2x"
                                     type="image/webp">
+
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/occupation/occ-3-desktop.jpg 1x, ./images/occupation/occ-3-desktop@2x.jpg 2x">
 
                                 <img class="works__image" src="#" alt="Создание дизайна">
                             </picture>
@@ -249,25 +248,25 @@
                     <li class="teammate">
                         <picture>
                             <source media="(min-width: 1200px)"
-                                srcset="./images/team/team-1-desktop.jpg 1x, ./images/team/team-1-desktop@2x.jpg 2x,">
-
-                            <source media="(min-width: 1200px)"
                                 srcset="./images/team/team-1-desktop.webp 1x, ./images/team/team-1-desktop@2x.webp 2x,"
                                 type="image/webp">
 
-                            <source media="(min-width: 768px)"
-                                srcset="./images/team/team-1-tablet.jpg 1x, ./images/team/team-1-tablet@2x.jpg 2x">
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/team/team-1-desktop.jpg 1x, ./images/team/team-1-desktop@2x.jpg 2x,">
 
                             <source media="(min-width: 768px)"
                                 srcset="./images/team/team-1-tablet.webp 1x, ./images/team/team-1-tablet@2x.webp 2x,"
                                 type="image/webp">
 
-                            <source media="(min-width: 480px)"
-                                srcset="./images/team/team-1.jpg 1x, ./images/team/team-1@2x.jpg 2x,">
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/team-1-tablet.jpg 1x, ./images/team/team-1-tablet@2x.jpg 2x">
 
                             <source media="(min-width: 480px)"
                                 srcset="./images/team/team-1.webp 1x, ./images/team/team-1@2x.webp 2x"
                                 type="image/webp">
+
+                            <source media="(min-width: 480px)"
+                                srcset="./images/team/team-1.jpg 1x, ./images/team/team-1@2x.jpg 2x,">
 
                             <img class="teammate__image" src="#"
                                 alt="Член команды, мужчина с бородой в очках и в бордовой футболке">
@@ -318,25 +317,25 @@
                     <li class="teammate">
                         <picture>
                             <source media="(min-width: 1200px)"
-                                srcset="./images/team/team-2-desktop.jpg 1x, ./images/team/team-2-desktop@2x.jpg 2x,">
-
-                            <source media="(min-width: 1200px)"
                                 srcset="./images/team/team-2-desktop.webp 1x, ./images/team/team-2-desktop@2x.webp 2x,"
                                 type="image/webp">
 
-                            <source media="(min-width: 768px)"
-                                srcset="./images/team/team-2-tablet.jpg 1x, ./images/team/team-2-tablet@2x.jpg 2x">
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/team/team-2-desktop.jpg 1x, ./images/team/team-2-desktop@2x.jpg 2x,">
 
                             <source media="(min-width: 768px)"
                                 srcset="./images/team/team-2-tablet.webp 1x, ./images/team/team-2-tablet@2x.webp 2x,"
                                 type="image/webp">
 
-                            <source media="(min-width: 480px)"
-                                srcset="./images/team/team-2.jpg 1x, ./images/team/team-2@2x.jpg 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/team-2-tablet.jpg 1x, ./images/team/team-2-tablet@2x.jpg 2x">
 
                             <source media="(min-width: 480px)"
                                 srcset="./images/team/team-2.webp 1x, ./images/team/team-2@2x.webp 2x"
                                 type="image/webp">
+
+                            <source media="(min-width: 480px)"
+                                srcset="./images/team/team-2.jpg 1x, ./images/team/team-2@2x.jpg 2x">
 
                             <img class="teammate__image" src="#" alt="Член команды, девушка в очках и деловом костюме">
                         </picture>
@@ -387,25 +386,25 @@
                     <li class="teammate">
                         <picture>
                             <source media="(min-width: 1200px)"
-                                srcset="./images/team/team-3-desktop.jpg 1x, ./images/team/team-3-desktop@2x.jpg 2x,">
-
-                            <source media="(min-width: 1200px)"
                                 srcset="./images/team/team-3-desktop.webp 1x, ./images/team/team-3-desktop@2x.webp 2x,"
                                 type="image/webp">
 
-                            <source media="(min-width: 768px)"
-                                srcset="./images/team/team-3-tablet.jpg 1x, ./images/team/team-3-tablet@2x.jpg 2x">
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/team/team-3-desktop.jpg 1x, ./images/team/team-3-desktop@2x.jpg 2x,">
 
                             <source media="(min-width: 768px)"
                                 srcset="./images/team/team-3-tablet.webp 1x, ./images/team/team-3-tablet@2x.webp 2x,"
                                 type="image/webp">
 
-                            <source media="(min-width: 480px)"
-                                srcset="./images/team/team-3.jpg 1x, ./images/team/team-3@2x.jpg 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/team-3-tablet.jpg 1x, ./images/team/team-3-tablet@2x.jpg 2x">
 
                             <source media="(min-width: 480px)"
                                 srcset="./images/team/team-3.webp 1x, ./images/team/team-3@2x.webp 2x"
                                 type="image/webp">
+
+                            <source media="(min-width: 480px)"
+                                srcset="./images/team/team-3.jpg 1x, ./images/team/team-3@2x.jpg 2x">
 
                             <img class="teammate__image" src="#" alt="Член команды, мужчина в голубой рубашке">
                         </picture>
@@ -456,25 +455,25 @@
                     <li class="teammate">
                         <picture>
                             <source media="(min-width: 1200px)"
-                                srcset="./images/team/team-4-desktop.jpg 1x, ./images/team/team-4-desktop@2x.jpg 2x,">
+                                srcset="./images/team/team-4-desktop.webp 1x, ./images/team/team-4-desktop@2x.webp 2x,"
+                                type="image/webp">
 
                             <source media="(min-width: 1200px)"
-                                srcset="./images/team/team-4-desktop.webp 1x, ./images/team/team-4-desktop@2x.webp 2x,"
+                                srcset="./images/team/team-4-desktop.jpg 1x, ./images/team/team-4-desktop@2x.jpg 2x,">
+
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/team-4-tablet.webp 1x, ./images/team/team-4-tablet@2x.webp 2x,"
                                 type="image/webp">
 
                             <source media="(min-width: 768px)"
                                 srcset="./images/team/team-4-tablet.jpg 1x, ./images/team/team-4-tablet@2x.jpg 2x">
 
-                            <source media="(min-width: 768px)"
-                                srcset="./images/team/team-4-tablet.webp 1x, ./images/team/team-14-tablet@2x.webp 2x,"
+                            <source media="(min-width: 480px)"
+                                srcset="./images/team/team-4.webp 1x, ./images/team/team-4@2x.webp 2x"
                                 type="image/webp">
 
                             <source media="(min-width: 480px)"
                                 srcset="./images/team/team-4.jpg 1x, ./images/team/team-4@2x.jpg 2x">
-
-                            <source media="(min-width: 480px)"
-                                srcset="./images/team/team-4.webp 1x, ./images/team/team-4@2x.webp 2x"
-                                type="image/webp">
 
                             <img class="teammate__image" src="#" alt="Член команды, мужчина в очках и черной футболке">
                         </picture>
@@ -525,7 +524,7 @@
             </div>
         </section>
 
-        <!-- <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="section__title">Постоянные клиенты</h2>
                 <ul class="clients">
@@ -578,92 +577,94 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
     </main>
 
-    <!-- <footer class="footer">
-        <div class="container footer__container">
-            <div class="address-wrap">
-                <a href="./index.html" class="logo footer__logo"><span class="logo__span">Web</span>Studio</a>
-                <address class="address">
-                    <ul class="address__list">
-                        <li class="address__item">
-                            <a class="address__location" href="https://goo.gl/maps/c1EK1qKSaTVivwzG6">г. Киев, пр-т
-                                Леси
-                                Украинки, 26</a>
-                        </li>
+    <footer class="footer">
+        <section class="section">
+            <div class="container footer__container">
+                <div class="address-wrap">
+                    <a href="./index.html" class="logo footer__logo"><span class="logo__span">Web</span>Studio</a>
+                    <address class="address">
+                        <ul class="address__list">
+                            <li class="address__item">
+                                <a class="address__location" href="https://goo.gl/maps/c1EK1qKSaTVivwzG6">г. Киев, пр-т
+                                    Леси
+                                    Украинки, 26</a>
+                            </li>
 
-                        <li class="address__item">
-                            <a class="address__link" href="mailto:info@example.com ">info@example.com
+                            <li class="address__item">
+                                <a class="address__link" href="mailto:info@example.com ">info@example.com
+                                </a>
+                            </li>
+
+                            <li class="address__item">
+                                <a class="address__link" href="tel:+380991111111">+38 099 111 11 11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+
+                <div class="footer-social">
+                    <p class="footer-social__text">присоединяйтесь</p>
+                    <ul class="footer-social__list">
+                        <li class="footer-social__item">
+                            <a class="footer-social__link" href="https://www.instagram.com" target="_blank"
+                                rel="noopener noreferrer">
+                                <svg class="footer-social__icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#icon-instagram"></use>
+                                </svg>
                             </a>
                         </li>
 
-                        <li class="address__item">
-                            <a class="address__link" href="tel:+380991111111">+38 099 111 11 11</a>
+                        <li class="footer-social__item">
+                            <a class="footer-social__link" href="https://twitter.com" target="_blank"
+                                rel="noopener noreferrer">
+                                <svg class="footer-social__icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="footer-social__item">
+                            <a class="footer-social__link" href="https://facebook.com" target="_blank"
+                                rel="noopener noreferrer">
+                                <svg class="footer-social__icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="footer-social__item">
+                            <a class="footer-social__link" href="https://linkedin.com" target="_blank"
+                                rel="noopener noreferrer">
+                                <svg class="footer-social__icon" width="20" height="20">
+                                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
                         </li>
                     </ul>
-                </address>
-            </div>
-
-            <div class="footer-social">
-                <p class="footer-social__text">присоединяйтесь</p>
-                <ul class="footer-social__list">
-                    <li class="footer-social__item">
-                        <a class="footer-social__link" href="https://www.instagram.com" target="_blank"
-                            rel="noopener noreferrer">
-                            <svg class="footer-social__icon" width="20" height="20">
-                                <use href="./images/sprite.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li class="footer-social__item">
-                        <a class="footer-social__link" href="https://twitter.com" target="_blank"
-                            rel="noopener noreferrer">
-                            <svg class="footer-social__icon" width="20" height="20">
-                                <use href="./images/sprite.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li class="footer-social__item">
-                        <a class="footer-social__link" href="https://facebook.com" target="_blank"
-                            rel="noopener noreferrer">
-                            <svg class="footer-social__icon" width="20" height="20">
-                                <use href="./images/sprite.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li class="footer-social__item">
-                        <a class="footer-social__link" href="https://linkedin.com" target="_blank"
-                            rel="noopener noreferrer">
-                            <svg class="footer-social__icon" width="20" height="20">
-                                <use href="./images/sprite.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <form class="subscribe-form" action="">
-                <p class="subscribe-form__text">Подпишитесь на рассылку</p>
-                <div class="subscribe-form__field">
-                    <label for="mail"></label>
-                    <input class="subscribe-form__input" placeholder="E-mail" type="email" name="mail" id="mail">
-                    <button class="subscribe-form__button" type="submit">Подписаться
-                        <svg class="subscribe-form__icon" width="24" height="24">
-                            <use href="./images/sprite.svg#icon-send"></use>
-                        </svg>
-                    </button>
                 </div>
-            </form>
-        </div>
-    </footer> -->
 
-    <!-- <div class="backdrop is-hidden" data-menu>
+                <form class="subscribe-form" action="">
+                    <p class="subscribe-form__text">Подпишитесь на рассылку</p>
+                    <div class="subscribe-form__field">
+                        <label for="mail"></label>
+                        <input class="subscribe-form__input" placeholder="E-mail" type="email" name="mail" id="mail">
+                        <button class="subscribe-form__button" type="submit">Подписаться
+                            <svg class="subscribe-form__icon" width="24" height="24">
+                                <use href="./images/sprite.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="modal__close-button" type="button" data-menu-close>
+            <button class="modal__close-button" type="button" data-modal-close>
                 <svg class="modal__icon-close" width="18" height="18">
                     <use href="./images/sprite.svg#icon-close"></use>
                 </svg>
@@ -711,8 +712,9 @@
                 <button class="modal__button" type="submit">Отправить</button>
             </form>
         </div>
-    </div> -->
+    </div>
 
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 
