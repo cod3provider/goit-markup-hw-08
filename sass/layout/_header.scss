@@ -28,11 +28,12 @@
     line-height: 28px;
     letter-spacing: 0.03em;
 
-    color: #212121;
-
     & span {
-        
         color: var(--accent-color);
+    }
+
+    &--black {
+        color: var(--nav-logo-color);
     }
 }
 
@@ -44,6 +45,7 @@
     
     border: none;
     background-color: transparent;
+    transition: fill var(--animation);
 
     &:hover {
         fill: var(--accent-color);
@@ -97,6 +99,7 @@
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: #212121;
+    transition: color var(--animation);
 
     &:hover {
         color: var(--accent-color);
@@ -114,6 +117,11 @@
     padding: 0;
     border: none;
     background-color: transparent;
+    transition: fill ;
+}
+
+.mobile-menu__icon-close {
+    transition: fill var(--animation);
 }
 
 .mobile-menu__icon-close:hover {
@@ -135,7 +143,7 @@
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 .mobile-menu__contacts {
@@ -186,10 +194,11 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--nav-links-color);
 
     padding-top: 32px;
     padding-bottom: 32px;
+    transition: color var(--animation);
 
     &:hover, &:focus {
         color: var(--accent-color);
@@ -251,9 +260,10 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--text-color);
     display: flex;
     align-items: center;
+    transition: color var(--animation);
 
     &:hover, &:focus {
         color: var(--accent-color);

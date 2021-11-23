@@ -3,11 +3,11 @@
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --title-color: #212121;
-    --accent-color: #2196F3;
+    --accent-color: --accent-color;
     --text-color: #757575;
     --nav__links-color: #212121;
     --hero-title-color: #ffffff;
-    --hero-button-color: #2196F3;
+    --hero-button-color: --accent-color;
     --hover-focus-button-color: #ffffff;
     --title-color: #212121;
     --bg-color: #2F303A;
@@ -443,12 +443,12 @@ img {
 
 .clients__link:hover .clients__icon,
 .clients__link:focus .clients__icon {
-    fill: #2196F3;
+    fill: --accent-color;
 }
 
 .clients__link:hover,
 .clients__link:focus {
-    border-color: #2196F3;
+    border-color: --accent-color;
 } */
 
 /* --------------------Footer----------------------- */
@@ -767,7 +767,7 @@ img {
 }
 
 .modal__close-button:hover .modal__icon-close {
-    fill: #2196F3;
+    fill: --accent-color;
 }
 
 .modal__form {
@@ -796,11 +796,11 @@ img {
 
 .modal__input:focus {
     outline: none;
-    border-color: #2196F3;
+    border-color: --accent-color;
 }
 
 .modal__input:focus + .modal__icon-input {
-    fill: #2196F3;
+    fill: --accent-color;
 }
 /* .modal__input:not(:last-child) {
     margin-bottom: 10px;
@@ -854,7 +854,7 @@ img {
 
 .modal__comment:focus {
     outline: none;
-    border-color: #2196F3;
+    border-color: --accent-color;
 }
 
 .modal__button {
@@ -862,7 +862,7 @@ img {
     min-width: 200px;
     letter-spacing: 0.06em;
     color: var(--button-text-color);
-    background-color: #2196F3;
+    background-color: --accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
@@ -877,7 +877,7 @@ img {
 
 .modal__policy-link {
     text-decoration-line: underline;
-    color: #2196F3;
+    color: --accent-color;
 }
 
 .modal__policy-agreement {

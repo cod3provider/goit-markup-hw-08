@@ -1,9 +1,9 @@
 .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-padding-mobile);
+    padding-bottom: var(--section-padding-mobile);
 
     @media screen and (min-width: 1200px) {
-        padding-top: 94px;
-        padding-bottom: 94px;
+        padding-top: var(--section-padding-desktop);
+        padding-bottom: var(--section-padding-desktop);
     }
 }
