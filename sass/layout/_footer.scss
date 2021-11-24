@@ -3,17 +3,23 @@
 }
 
 .footer__container {
-    display: flex;
-    justify-content: center;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-around;
+
+    }
+    
     align-items: baseline;
     
+    
     @media screen and (max-width: 767px) {
-        flex-direction: column;
-        align-items: center;
+        // flex-direction: column;
+        // align-items: center;
     }
     
     @media screen and (max-width: 1199px) {
         flex-wrap: wrap;
+        text-align: center;
     }
 }
 
@@ -26,6 +32,7 @@
 
     @media screen and (min-width: 1200px) {
         flex-grow: 1 ;
+        text-align: start;
     }
 }
 
@@ -76,9 +83,13 @@
         margin-top: 60px;
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-        margin-left: 165px;
+    @media screen and (min-width: 1200px) {
+        margin-left: 70px;
     }
+
+    // @media screen and (min-width: 768px) and (max-width: 1199px) {
+    //     margin-left: 165px;
+    // }
 }
 
 .footer-social__text, .subscribe-form__text {
@@ -99,8 +110,8 @@
 
 .footer-social__list {
     margin-top: 20px;
-
     display: flex;
+    justify-content: center;
 }
 
 .footer-social__item {
@@ -137,9 +148,7 @@
 }
 
 .subscribe-form {
-    @media screen and (min-width: 480px) {
-        width: 450px;
-    }
+    // width: 450px;
     
     @media screen and (max-width: 1199px) {
         margin-top: 60px;
@@ -152,25 +161,31 @@
 }
 
 .subscribe-form__field {
-    @media screen and (min-width: 480px) {
+    // width: 100%;
+    
+    @media screen and (min-width: 1200px) {
         display: flex;
     }
+    
 
-    @media screen and (max-width:1199px) {
-    flex-wrap: wrap;
-    justify-content: center;
-    }
+    // @media screen and (max-width:1199px) {
+    // flex-wrap: wrap;
+    // justify-content: center;
+    // }
 }
 
 .subscribe-form__input {
     padding: 15px;
-
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     background-color: transparent;
 
-    @media screen and (min-width: 480px) and (max-width: 1199px) {
-        width: 450px;
+    // @media screen and (max-width: 1199px) {
+    //     width: 450px;
+    // }
+
+    @media screen and (max-width: 1199px) {
+        width: 100%;
     }
 
     @media screen and (min-width: 1200px) {
@@ -182,7 +197,7 @@
 .subscribe-form__button {
     @extend %button;
 
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 29px;
