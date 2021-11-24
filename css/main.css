@@ -372,28 +372,21 @@ img {
 }
 
 .header {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-@media screen and (max-width: 767px) {
-  .header {
-    height: 60px;
-  }
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
   .header {
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #ECECEC;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .header {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 }
 
@@ -424,6 +417,8 @@ img {
   top: 10px;
   right: 15px;
   padding: 0;
+  width: 40px;
+  height: 40px;
   border: none;
   background-color: transparent;
   transition: fill var(--animation);
@@ -611,6 +606,8 @@ img {
 
 @media screen and (min-width: 1200px) {
   .contacts {
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
 }
@@ -1077,9 +1074,14 @@ img {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__container {
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .footer__container {
     text-align: center;
   }
 }
@@ -1102,8 +1104,8 @@ img {
 }
 
 .address {
-  font-style: normal;
   margin-top: 20px;
+  font-style: normal;
 }
 
 .address__list {
@@ -1255,15 +1257,14 @@ img {
   }
 }
 
+.section--border {
+  border-top: 1px solid #ECECEC;
+}
+
 .filter {
   display: flex;
   flex-wrap: wrap;
-}
-
-@media screen and (min-width: 480px) {
-  .filter {
-    margin-bottom: 30px;
-  }
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1339,6 +1340,7 @@ img {
   border-right: 1px solid var(--portfolio-border-color);
   border-bottom: 1px solid var(--portfolio-border-color);
   border-left: 1px solid var(--portfolio-border-color);
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
@@ -1363,6 +1365,7 @@ img {
 
 .portfolio__link {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   height: 100%;
 }
@@ -1383,6 +1386,8 @@ img {
   width: 100%;
   height: 100%;
   transform: translateY(101%);
+  padding-top: 77px;
+  padding-bottom: 77px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
@@ -1392,13 +1397,6 @@ img {
   padding-right: 24px;
   padding-left: 24px;
   transition: transform var(--animation);
-}
-
-@media screen and (min-width: 480px) {
-  .portfolio__overlay {
-    padding-top: 77px;
-    padding-bottom: 77px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1422,6 +1420,7 @@ img {
 .portfolio__card {
   padding: 20px 24px;
   width: 100%;
+  flex-grow: 1;
 }
 
 .portfolio__name {
