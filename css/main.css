@@ -118,7 +118,7 @@
 
 @media screen and (max-width: 767px) {
   .backdrop {
-    padding: 94px 15px;
+    padding: 15px;
   }
 }
 
@@ -763,8 +763,11 @@ img {
   color: #212121;
 }
 
-.features__text {
+.features__item {
   margin-bottom: 30px;
+}
+
+.features__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -996,8 +999,8 @@ img {
 @media screen and (max-width: 1199px) {
   .clients {
     flex-wrap: wrap;
-    margin-right: -30px;
-    margin-top: -30px;
+    margin-right: -15px;
+    margin-top: -15px;
   }
 }
 
@@ -1009,8 +1012,8 @@ img {
 
 @media screen and (max-width: 1199px) {
   .clients__item {
-    margin-right: 30px;
-    margin-top: 30px;
+    margin-right: 15px;
+    margin-top: 15px;
   }
 }
 
@@ -1061,6 +1064,8 @@ img {
 
 .footer {
   background-color: var(--footer-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer__container {
